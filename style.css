@@ -1,0 +1,72 @@
+body
+{
+    background:url('background.svg');
+    background-repeat: no-repeat;
+}
+
+.title
+{
+    color:#fff;
+    font-size: 35px;
+}
+
+.description
+{
+    color:#dafaee;
+    font-size: 12px;
+}
+
+form
+{
+    width:300px;
+    height:150px;
+    background:#fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 0px #00000031;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+form input[type="text"]
+{
+    border:none;
+    padding:10px;
+    width:70%;
+    border-radius: 20px;
+    outline:none;
+    box-shadow: 0px 0px 4px 0px #16161633;
+    margin-bottom: -10px;
+}
+
+form input[type="text"]::placeholder
+{
+    color:#b3b4b4;
+    font-size: 12px;
+}
+
+
+form input[type="submit"]
+{
+    border:none;
+    outline:none;
+    background:#2fd18e;
+    color:#fff;
+    padding:10px 13px;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+
+form input[type="submit"]:hover
+{
+    background:#0b804f;
+    cursor: pointer;
+}
+
+.author
+{
+    color:#0ca163;
+    font-size: 15px;
+}
